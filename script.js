@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   const apiRoot = 'http://hidden-lowlands-06521.herokuapp.com/v1/task/';
+   const apiRoot = 'https://hidden-lowlands-06521.herokuapp.com/v1/task/';
    const trelloApiRoot = 'https://hidden-lowlands-06521.herokuapp.com/v1/trello/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
